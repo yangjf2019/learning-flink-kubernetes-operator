@@ -61,6 +61,7 @@ public class WordCount {
         env.setRuntimeMode(RuntimeExecutionMode.STREAMING);
         env.setParallelism(1);
         env.disableOperatorChaining();
+        env.enableCheckpointing(1000L);
 
         DataStream<String> text = env
                 .fromElements(WORDS)
