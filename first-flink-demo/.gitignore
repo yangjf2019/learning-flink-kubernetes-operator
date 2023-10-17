@@ -1,0 +1,17 @@
+target/
+*.iml
+.idea
+.DS_Store
+*.class
+out/*
+logs/*
+target/*
+packconfig/*
+META-INF/*
+dependency-reduced-pom.xml
+log.*
+src/main/resources/*.xml
+main/resources/*.properties
+main/resources/*.xml
+.idea/*
+.run/*

@@ -87,7 +87,7 @@ public class WordCount {
             String[] tokens = value.toLowerCase().split("\\W+");
             for (String token : tokens) {
                 if (token.length() > 0) {
-                    Thread.sleep(1000L);
+                    Thread.sleep(200L);
                     out.collect(new Tuple2<>(token, 1));
                 }
             }
