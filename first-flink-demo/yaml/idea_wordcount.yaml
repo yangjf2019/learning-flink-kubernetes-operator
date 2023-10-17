@@ -3,7 +3,7 @@ kind: FlinkDeployment
 metadata:
   name: java-intergrated-wordcount
 spec:
-  image: first-flink-demo:1.15.3.2023100109
+  image: 127.0.0.1:5000/first-flink-demo:1.15.3.2023100109
   flinkVersion: v1_15
   flinkConfiguration:
     taskmanager.numberOfTaskSlots: "2"
